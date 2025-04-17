@@ -1,3 +1,4 @@
+#this is about  the text to speech module :
 import pyttsx3
 
 engine=pyttsx3.init()
@@ -7,4 +8,26 @@ def speak(text):
   engine.say(text)
   engine.runAndWait()
 speak("hello,there I am Ai VOice ASSITANT first module that is text to speech...")  
-  
+
+#this is about the speech to text module :  
+
+
+import speech_recognition as sr
+
+r = sr.Recognizer() #intializing the recognizer method to work 
+
+while(1):
+
+
+  try:
+    with sr.Microphone() as source:
+
+      audio = sr.listen(source)
+      text = r.recoginze_google(audio)
+      text = text.lower()
+      print(text) 
+   except sr.RequestError as e:
+        print("Could not request results:".format(e))
+        
+    except sr.UnknownValueError:
+        print("unknown error occurred")
