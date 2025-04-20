@@ -6,13 +6,13 @@
 <!-- NEON BUTTONS -->
 <p align="center">
   <a href="https://your-live-demo-link.com" target="_blank">
-    <img src="https://img.shields.io/badge/🚀-Live Demo-0ff0f0?style=for-the-badge&logo=vercel&logoColor=black&colorA=1f1f1f&colorB=00FFFF" />
+    <img src="https://img.shields.io/badge/🚀-Live Demo-0ff0f0?style=for-the-badge&logo=vercel&logoColor=white&colorA=1f1f1f&colorB=00FFFF" />
   </a>
   <a href="https://your-docs-link.com" target="_blank">
-    <img src="https://img.shields.io/badge/📚-Documentation-ff00ff?style=for-the-badge&logo=gitbook&logoColor=black&colorA=1f1f1f&colorB=FF00FF" />
+    <img src="https://img.shields.io/badge/📚-Documentation-ff00ff?style=for-the-badge&logo=gitbook&logoColor=white&colorA=1f1f1f&colorB=FF00FF" />
   </a>
   <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/📬-Contact-00ff00?style=for-the-badge&logo=gmail&logoColor=black&colorA=1f1f1f&colorB=00FF00" />
+    <img src="https://img.shields.io/badge/📬-Contact-00ff00?style=for-the-badge&logo=gmail&logoColor=white&colorA=1f1f1f&colorB=00FF00" />
   </a>
 </p>
 
