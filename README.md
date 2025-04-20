@@ -1,6 +1,6 @@
 <!-- DARK THEME HACK -->
 <p align="center">
-  <img src="https://your-dark-banner-link.com/banner.png" alt="TARA AI Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/Naninetha3/Jarvis-ai-Voice-Assistant/refs/heads/main/voice-assistant-concept-sound-recognition-equalizer-wave-flow-background_208588-3512.jpg" alt="TARA AI Banner" width="80%"&height=50px />
 </p>
 
 <!-- NEON BUTTONS -->
@@ -40,8 +40,8 @@ TARA AI is a **next-generation voice assistant** 🎙️ powered by **⚡ Deep L
 | **TensorFlow / PyTorch** 🧠 | Deep Learning |
 | **Google STT / Vosk** 🎤 | Speech Recognition |
 | **gTTS / pyttsx3** 🔊 | Text-to-Speech |
-| **Flask / FastAPI** 🌐 | Backend APIs |
-| **Docker** 🐳 | Containerization |
+| **Ollama Model [Offline]** | question and answer |
+|**weather data and Windows Tasks** | windows Tasks |
 
 ---
 
