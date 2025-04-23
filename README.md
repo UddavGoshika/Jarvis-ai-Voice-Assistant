@@ -74,14 +74,7 @@ TARA AI is a **next-generation voice assistant** 🎙️ powered by **⚡ Deep L
 tara_ai/
 ├── README.md
 ├── requirements.txt
-├── app.py
 ├── speech_recognition.py
 ├── text_to_speech.py
-├── nlu_model.py
+├── ollama_model.py
 ├── task_manager.py
-├── info_fetcher.py
-├── iot_controller.py
-├── security.py
-└── utils/
-    ├── logger.py
-    └── config.py
