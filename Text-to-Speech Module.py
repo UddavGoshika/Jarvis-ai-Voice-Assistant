@@ -31,3 +31,10 @@ while(1):
         
     except sr.UnknownValueError:
         print("unknown error occurred")
+from googlesearch import search
+def google_search(query):
+  try:
+    results = list(search(query,num_results=3))
+    return '\n'.join(results)
+def realtime_chat_response(prompt):
+  
