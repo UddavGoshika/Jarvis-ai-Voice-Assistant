@@ -37,4 +37,6 @@ def google_search(query):
     results = list(search(query,num_results=3))
     return '\n'.join(results)
 def realtime_chat_response(prompt):
+  Google_search(prompt)
+  return result 
   
