@@ -39,4 +39,24 @@ def google_search(query):
 def realtime_chat_response(prompt):
   Google_search(prompt)
   return result 
+
+
+
+def opening_instagram():
+    speak("Opening Instagram")
+    webbrowser.open("https://www.instagram.com")
+    time.sleep(1)
+    speak('instagram is opened sir')
+
+def opening_facebook():
+    speak("Opening Facebook")
+    webbrowser.open("https://www.facebook.com")
+    time.sleep(1)
+    speak('facebook is opened sir')
+
+def opening_whatsapp():
+    speak("Opening WhatsApp")
+    webbrowser.open("https://web.whatsapp.com")
+  
+  
   
