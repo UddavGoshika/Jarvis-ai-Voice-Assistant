@@ -57,6 +57,32 @@ def opening_facebook():
 def opening_whatsapp():
     speak("Opening WhatsApp")
     webbrowser.open("https://web.whatsapp.com")
+def search_in_youtube():
+    # Open YouTube in Chrome
+    webbrowser.open("https://www.youtube.com")
+    speak("Opening YouTube, sir. Please wait.")
+    time.sleep(5)  # Allow time for the browser to load YouTube (adjust based on speed)
+    pyautogui.press('/')  # Navigate to the search bar
+
+    # Ask what to search
+    speak("What do you want to search on YouTube?")
+    search_query = listen() # Replace with actual voice input function
+    time.sleep(1)
+    if search_query:
+        speak(f"Searching for {search_query} on YouTube.")
+        # pyautogui.hotkey('alt','tab')
+        # # Navigate to the search bar (adjust depending on the browser tab focus)
+        
+        # Type each letter with animation
+        for letter in search_query:
+            pyautogui.typewrite(letter)
+            time.sleep(0.05)  # Delay between each keystroke for animation effect
+        
+        pyautogui.press('enter')  # Trigger the search
+        time.sleep(3)  # Wait for search results to load
+        speak("Here are the search results for your query.")
+    else:
+        speak("I didn't catch that. Please try again.")  
   
   
   
