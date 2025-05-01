@@ -13,3 +13,4 @@ def generate_response(query):
   )
   return answer = ['message']['content']
 query = input("enter yout question : "  )
+generate_response(query)
