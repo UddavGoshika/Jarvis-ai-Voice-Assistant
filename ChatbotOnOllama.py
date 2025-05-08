@@ -15,4 +15,4 @@ def generate_response(query):
 query = input("enter yout question : "  )
 generate_response(query)
 
-the chatbot required the ollama model or I can serve this with low latency with the network connection 
+the chatbot required the ollama model or I can yes htis is the best can do this off;ien anps we sare peofidinf he socod epserve this with low latency with the network connection 
