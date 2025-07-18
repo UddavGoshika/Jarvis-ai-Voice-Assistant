@@ -16,7 +16,7 @@
   </a>
 </p>
 
-<h1 align="center" style="color: #00ffff;">🌌 TARA AI — Your Neon Voice Companion 🔥🤖</h1>
+<h1 align="center" style="color: #00ffff;">🌌 Vernica AI — Your Neon Voice Companion 🔥🤖</h1>
 
 ---
 
